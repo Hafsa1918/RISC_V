@@ -10,10 +10,13 @@ The intructions used are in a text file - instmem.txt under Design_Files folder
 
 # Instructions used
 
-boost: lw x6, -4(x9)
-       sw x6, 8(x9)
-       or x4, x5, x6
-       beq x4, x4, boost
+       boost:  lw x6, -4(x9)
+       
+               sw x6, 8(x9)
+       
+               or x4, x5, x6
+       
+               beq x4, x4, boost
 
 # Structure
 - Design_Files - holds all the design modules
