@@ -4,11 +4,12 @@ This repo implements RISC_V single cycle processor using Verilog HDL. The proces
 
 Processor RTL and simulation results are added to repository.
 
+# Results
 ![Waveforms](https://github.com/ha007-aman/RISC_V/assets/73087518/5e2f1926-34e1-45e0-97f5-c5eb5b6ee268)
 
-The intructions used are in a text file - instmem.txt under Design_Files folder
 
-# Instructions used
+# Instructions
+The intructions used are in a text file - instmem.txt under Design_Files folder
 
        boost:  lw x6, -4(x9)
        
