@@ -9,7 +9,8 @@ Processor RTL and simulation results are added to repository.
 
 
 # Instructions
-The intructions used are in a text file - instmem.txt under Design_Files folder
+The intructions used are in a text file - instmem.txt under Design_Files folder. It holds the machine code of the instructions.
+
 
        boost:  lw x6, -4(x9)
        
